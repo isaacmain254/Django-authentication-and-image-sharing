@@ -1,0 +1,5 @@
+# ignore
+db.sqlite3
+cert.crt 
+cert.key
+venv/
