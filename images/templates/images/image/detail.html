@@ -32,6 +32,8 @@
                 <div>
                     {% if user.profile.photo %}
                         <img src="{{ user.profile.photo.url }}">
+                    {% else %}
+                        <img src="/media/users/default.jpeg" >
                     {% endif %}
                     <p>{{ user.first_name }}</p>
                 </div>
